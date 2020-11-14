@@ -33,5 +33,6 @@ yum install -y postgresql96-server
 systemctl start postgresql-9.6
 
 su postgres -c 'psql'
+
 \password postgres
 
