@@ -26,6 +26,7 @@ wget -qO pg_hba.conf https://raw.githubusercontent.com/RomanGorokhov/pgpool/main
 wget -qO postgresql.conf  https://raw.githubusercontent.com/RomanGorokhov/pgpool/main/postgresql.conf
 
 /usr/pgsql-9.6/bin/postgresql96-setup initdb
+
 systemctl start postgresql-9.6
 
 systemctl start pgpool-II-96
