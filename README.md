@@ -29,6 +29,8 @@ wget -qO postgresql.conf  https://raw.githubusercontent.com/RomanGorokhov/pgpool
 
 systemctl start postgresql-9.6
 
+ln -s /etc/pgpool-II-96 /etc/pgpool-II-10
+
 systemctl start pgpool-II-96
 
 su postgres -c 'psql'
