@@ -44,6 +44,10 @@ yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_6
 
 yum install -y postgresql96-server
 
+cd /var/lib/pgsql/9.6/data/
+
+wget -qO pg_hba.conf https://raw.githubusercontent.com/RomanGorokhov/pgpool/main/pg_hba.conf
+
 /usr/pgsql-9.6/bin/postgresql96-setup initdb
 
 systemctl start postgresql-9.6
