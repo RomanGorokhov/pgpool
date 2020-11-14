@@ -21,6 +21,7 @@ systemctl start postgresql-9.6
 systemctl start pgpool-II-96
 
 su postgres -c 'psql'
+
 \password postgres
 
 
