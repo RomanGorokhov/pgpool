@@ -1,6 +1,6 @@
 # pgpool
 
-
+Howto install pgpool-II-96, postgresql96 on CentOS7.
 
 
 # Master node
