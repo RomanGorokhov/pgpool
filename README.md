@@ -4,8 +4,11 @@
 Master node
 
 yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
+
 yum install -y postgresql96-server
+
 yum install -y pgpool-II-96.x86_64
+
 yum install -y wget
 
 cd /etc/pgpool-II-96/
